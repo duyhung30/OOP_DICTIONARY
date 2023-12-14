@@ -18,7 +18,7 @@
 <AnchorPane prefHeight="650.0" prefWidth="820.0" styleClass="search_container" stylesheets="@../../../Styles/search.css" xmlns="http://javafx.com/javafx/17.0.6" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.demo.Controllers.historyController">
     <AnchorPane layoutX="1.0" layoutY="-1.0" prefHeight="550.0" prefWidth="210.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.topAnchor="0.0">
         <Pane prefHeight="50.0" prefWidth="264.0" AnchorPane.leftAnchor="5.0" AnchorPane.rightAnchor="-28.0" AnchorPane.topAnchor="10.0">
-            <TextField fx:id="searchTextField" onKeyPressed="#searchHistoryTextFieldAction" prefHeight="50.0" prefWidth="241.0" promptText="Nhập từ cần tra" style="-fx-background-radius: 5; -fx-cursor: hand;">
+            <TextField fx:id="searchTextField" onKeyPressed="#searchTextFieldAction" prefHeight="50.0" prefWidth="241.0" promptText="Nhập từ cần tra" style="-fx-background-radius: 5; -fx-cursor: hand;">
             <font>
                <Font name="Segoe UI Semibold" size="14.0" />
             </font></TextField>
